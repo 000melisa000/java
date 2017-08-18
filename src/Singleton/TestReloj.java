@@ -18,5 +18,6 @@ public class TestReloj {
         System.out.println("dir inst1:" + r);
         System.out.println("dir inst2:" + r2);
         System.out.println("dir inst3:" + r3);3
+                sksdkfskfklj
     }
 }

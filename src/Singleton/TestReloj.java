@@ -10,14 +10,9 @@ package Singleton;
  * @author dilan
  */
 public class TestReloj {
-    public static void main(String[]args)
-    {
-        Reloj r = Reloj.getinstancia();
-        Reloj r2 = Reloj.getinstancia();
-        Reloj r3 = Reloj.getinstancia();
-        System.out.println("dir inst1:" + r);
-        System.out.println("dir inst2:" + r2);
-        System.out.println("dir inst3:" + r3);3
-                sksdkfskfklj
+     public static void main (String[]args){
+      Reloj instancia1 = Reloj.getInstance();
+        instancia1.getHora();
     }
+    
 }

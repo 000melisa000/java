@@ -1,6 +1,6 @@
 package Singleton;
 
-import static com.oracle.nio.BufferSecrets.instance;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -33,6 +33,10 @@ public class Singleton {
     {
         System.out.println("esta es una de las operaciones");
 
+    }
+
+    void getHora() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }   

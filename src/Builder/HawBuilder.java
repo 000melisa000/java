@@ -13,7 +13,12 @@ public class HawBuilder extends Builder
 {
     public Hamburger BuildHamburger() 
     {
-        return new Hawaii();
+        return new Hawaii() {
+            @Override
+            public void hambType() {
+                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            }
+        };
         
     }
 

@@ -14,7 +14,7 @@ public class Test
     public static void main (String[]args)
     {
         Director d = new Director();
-        Hawaii h = (Hawaii)d.orderHamb("hawaiana");
+       
     }
     
 }

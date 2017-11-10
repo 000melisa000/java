@@ -9,6 +9,6 @@ package Builder;
  *
  * @author dilan
  */
-public class Hawaii extends Hamburger {
+public abstract class Hawaii extends Hamburger {
     
 }

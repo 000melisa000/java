@@ -11,5 +11,10 @@ package Builder;
  */
 public class DoubleHamburger extends Hamburger 
 {
+
+    @Override
+    public void hambType() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

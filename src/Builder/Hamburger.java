@@ -9,7 +9,7 @@ package Builder;
  *
  * @author dilan
  */
-public class Hamburger
+public abstract class Hamburger
 {
     protected Bread bread;
     protected Tomatoe tomatoe;

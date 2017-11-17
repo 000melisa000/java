@@ -78,5 +78,4 @@ public class Cena implements Runnable
         ch14.start();
         ch15.start();
     }
-    
 }

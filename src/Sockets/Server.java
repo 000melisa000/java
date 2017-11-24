@@ -12,12 +12,6 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-
-
-/**
- *
- * @author dilan
- */
 public class Server 
 {
     public static void main (String[]args) throws IOException
@@ -27,15 +21,17 @@ public class Server
             int port = 2221;
             ServerSocket server = new ServerSocket(port);
             Socket cliente = server.accept();
-            PrintWriter out = new PrintWriter(cliente.getOutputStream());
+            PrintWriter print = new PrintWriter(cliente.getOutputStream());
             BufferedReader in = (new BufferedReader(new InputStreamReader(cliente.getInputStream())));
-            String line;
+            String line = "no estes chingando";
             while((line = in.readLine())!= null)
+                
             {
                 System.out.println(line);
-                out.println("servidor repite"+ line);
-                
+                print.println("servidor repite"+ line);
             }
+            cliente.close();
+            server.close();
         }catch(IOException ex)
         {
             
